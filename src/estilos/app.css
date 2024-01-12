@@ -14,6 +14,7 @@ body{
     grid-template-rows: 100px 100px 100px;
     width: 450px;
     padding:30px;
+    place-items: center;
 }
 
 .btn-reinicio{
@@ -90,4 +91,15 @@ body{
 .winner .win .cuadrado{
   width: 120px;
   border: none;
+}
+
+@media screen and (width<550px) {
+  .tablero{
+    width: 350px;
+  }
+}
+@media screen and (width<400px) {
+  .tablero{
+    width: 280px;
+  }
 }

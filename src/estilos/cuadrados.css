@@ -12,6 +12,7 @@
     cursor: pointer;
     border: #fff solid 4px;
     box-shadow: 0 0 5px #fff;
+    width: 80%;
 }
 
 .selected{
