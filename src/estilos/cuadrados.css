@@ -1,0 +1,20 @@
+.cuadrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: #111 solid 2px;
+    height: 80px;
+    color: #fff;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border: #fff solid 4px;
+    box-shadow: 0 0 5px #fff;
+}
+
+.selected{
+    background-color: #108797;
+    box-shadow: #108797 0px 0px 5px 5px;
+}
